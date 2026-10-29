@@ -1,4 +1,4 @@
-## Algorithms ##  
+-- Algorithms --
 
 - What is Algorithm?
 - Algorithm can be defined the steps of solving a problem or problems. It can be complicated things or normal life steps. 
@@ -12,5 +12,16 @@
 5. Filter the pasta from water
 6. It is ready to serve
 We can admit that as an algorithm.
+
+# Pseudo code 
+
+- I also want to give infos about pseudo-code.
+- Pseudo-code is like algorithm but there are some differences.
+
+# Differences between Algorithm and Pseudo-code
+1. Algorithm can appear anytime of our lives but pseudo-code is for software and coding.
+2. Pseudo-code is simplified phase before coding.
+Example:
+
 
 
