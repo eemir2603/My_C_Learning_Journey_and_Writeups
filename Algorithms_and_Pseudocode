@@ -25,6 +25,26 @@ We can admit that as an algorithm.
 2. Pseudo-code is simplified phase before coding.
 Example:
 
+ALGORITHM FindMaximum(numberList)
+    // Step 1: Check if the list is empty
+    IF numberList IS EMPTY THEN
+        RETURN "List is empty"
+    END IF
+
+    // Step 2: Assume the first element is the largest
+    SET maxNumber TO numberList[0]
+
+    // Step 3: Iterate through the remaining elements
+    FOR EACH number IN numberList FROM index 1 TO end
+        IF number > maxNumber THEN
+            SET maxNumber TO number    // Update maxNumber if a larger value is found
+        END IF
+    END FOR
+
+    // Step 4: Return the highest value found
+    RETURN maxNumber
+END ALGORITHM
+
          
 
 
