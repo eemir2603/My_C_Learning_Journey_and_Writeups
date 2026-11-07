@@ -7,7 +7,9 @@ This section documents my progress while learning the C programming language thr
 - Variables and data types
 - Standard input and output (`printf`, `scanf`)
 - Arithmetic and comparison operators
+- Logical operators (`&&`, `||`, and `!`)
 - Conditional statements (`if`, `else if`, `else`)
+- Conditional (ternary) operator (`?:`)
 - Loops (`while`, `do-while`, and `for`)
 - Nested loops
 - Loop control statements (`break` and `continue`)
@@ -18,6 +20,7 @@ This section documents my progress while learning the C programming language thr
 | Project | Concepts practised |
 |---|---|
 | [Number Processor](01-control-flow/number-processor/) | Functions, user input, `for`, `if`, `break`, and `continue` |
+| [Number Range Checker](02-logical-operators/number-range-checker/) | Comparison operators, logical AND (`&&`), and the ternary operator (`?:`) |
 
 ## Learning approach
 
