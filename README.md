@@ -17,13 +17,17 @@ I use it to keep structured notes, explain concepts in my own words, and publish
 | [C](C/) | C programming notes and small projects |
 | [Algorithms and Pseudocode](Algorithms_and_Pseudocode) | Introductory algorithm and pseudocode notes |
 
-## Featured project
+## Featured projects
 
 ### [Number Processor](C/01-control-flow/number-processor/)
 
 A small C command-line program that reads an integer, skips odd numbers, sums even numbers, and uses `continue` and `break` to control a loop.
 
-The project includes its source code, build instructions, example output, test cases, and a learning write-up.
+### [Number Range Checker](C/02-logical-operators/number-range-checker/)
+
+A C command-line program that checks whether an integer falls within the inclusive range of 10 to 20 using comparison operators, logical AND (`&&`), and the ternary operator (`?:`).
+
+Both projects include source code, build instructions, example runs, and learning write-ups.
 
 ## How I document my work
 
