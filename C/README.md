@@ -21,6 +21,7 @@ This section documents my progress while learning the C programming language thr
 |---|---|
 | [Number Processor](01-control-flow/number-processor/) | Functions, user input, `for`, `if`, `break`, and `continue` |
 | [Number Range Checker](02-logical-operators/number-range-checker/) | Comparison operators, logical AND (`&&`), and the ternary operator (`?:`) |
+| [Vehicle Sensor Monitor — Non-Function Version](03-automotive/vehicle-sensor-monitor/non-function/) | Simulated sensor classification, comparisons, logical AND, and conditional branches |
 
 ## Learning approach
 
