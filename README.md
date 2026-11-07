@@ -27,7 +27,13 @@ A small C command-line program that reads an integer, skips odd numbers, sums ev
 
 A C command-line program that checks whether an integer falls within the inclusive range of 10 to 20 using comparison operators, logical AND (`&&`), and the ternary operator (`?:`).
 
-Both projects include source code, build instructions, example runs, and learning write-ups.
+### [Vehicle Sensor Monitor — Non-Function Version](C/03-automotive/vehicle-sensor-monitor/non-function/)
+
+A simulated automotive-themed C program that classifies one user-entered sensor value as LOW, NORMAL, HIGH, OFF, or invalid using conditional statements.
+
+The Vehicle Sensor Monitor is an educational simulation; its thresholds are not real vehicle specifications.
+
+All projects include source code and learning write-ups with build instructions and limitations.
 
 ## How I document my work
 
