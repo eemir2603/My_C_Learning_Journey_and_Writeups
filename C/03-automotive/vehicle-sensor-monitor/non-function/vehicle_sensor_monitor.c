@@ -3,28 +3,30 @@
 int main(void) {
 
     printf("Car Sensor Checker Initialized.\n");
-    // Additional code for checking car sensors would go here
     printf("Please enter the sensor status (0-100): ");
-    int sensorStatus = 0; // Placeholder for sensor status
-    scanf("%d", &sensorStatus); // Simulate reading sensor status from user input
+
+    int sensorStatus = 0;
+
+    if (scanf("%d", &sensorStatus) != 1) {
+        printf("Invalid input. Please enter an integer.\n");
+        return 1;
+    }
+
     printf("Sensor Status: %d\n", sensorStatus);
-    
-    // If statements 
-    if (sensorStatus <= 80 && sensorStatus >= 20) {   // normal range
+
+    if (sensorStatus >= 20 && sensorStatus <= 80) {
         printf("Sensor is within normal range.\n");
-    } else if (sensorStatus > 80 && sensorStatus <= 100)   // high range
+    } else if (sensorStatus > 80 && sensorStatus <= 100) {
         printf("Sensor is high range, please check!\n");
-    else if (sensorStatus < 20 && sensorStatus > 0)   // low range
+    } else if (sensorStatus < 20 && sensorStatus > 0) {
         printf("Sensor is low range, please check!\n");
-    else if (sensorStatus == 0)   // sensor is off range
+    } else if (sensorStatus == 0) {
         printf("Sensor is off, please check!\n");
-    else if (sensorStatus > 100)   // sensor is out of range
+    } else if (sensorStatus > 100) {
         printf("Sensor is out of range, please check!\n");
-    else if (sensorStatus < 0)   // sensor is negative
+    } else if (sensorStatus < 0) {
         printf("Sensor status cannot be negative, please check!\n");
-    else    
-        printf("Invalid sensor status input.\n");  // Handle unexpected input. 
-        
+    }
 
     return 0;
 }
