@@ -22,9 +22,9 @@ char letter = 'A';
 
 ## The null terminator
 
-A C string ends with a special character called the **null terminator**, written as `\\0`.
+A C string ends with a special character called the **null terminator**, written as `\0`.
 
-For example, the string `"Emir"` contains four visible characters, but its character array also needs space for the terminating `\\0`.
+For example, the string `"Emir"` contains four visible characters, but its character array also needs space for the terminating `\0`.
 
 Conceptually, its elements are:
 
@@ -34,7 +34,7 @@ Conceptually, its elements are:
 | 1 | m |
 | 2 | i |
 | 3 | r |
-| 4 | `\\0` |
+| 4 | `\0` |
 
 The null terminator marks the end of the string.
 
@@ -66,7 +66,7 @@ BMW
 - C represents strings using arrays of `char`.
 - String literals use double quotation marks.
 - A single character uses single quotation marks.
-- Every properly formed C string ends with `\\0`.
+- Every properly formed C string ends with `\0`.
 - Use `%s` with `printf` to print a string.
 
 ## Learning status
