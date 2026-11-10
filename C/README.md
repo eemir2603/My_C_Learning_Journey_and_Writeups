@@ -14,6 +14,13 @@ This section documents my progress while learning the C programming language thr
 - Nested loops
 - Loop control statements (`break` and `continue`)
 - Function prototypes, parameters, and return values (introductory practice)
+- Arrays: declaration, initialization, indexing, updating elements, fixed size, and bounds
+- Strings: character arrays, null terminators (`\\0`), and printing with `%s` (introductory concepts)
+
+## Study notes
+
+- [Arrays](04-arrays/README.md)
+- [Strings](05-strings/README.md)
 
 ## Projects
 
