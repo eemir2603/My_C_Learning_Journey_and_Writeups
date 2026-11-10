@@ -15,7 +15,7 @@ This section documents my progress while learning the C programming language thr
 - Loop control statements (`break` and `continue`)
 - Function prototypes, parameters, and return values (introductory practice)
 - Arrays: declaration, initialization, indexing, updating elements, fixed size, and bounds
-- Strings: character arrays, null terminators (`\\0`), and printing with `%s` (introductory concepts)
+- Strings: character arrays, null terminators (`\0`), and printing with `%s` (introductory concepts)
 
 ## Study notes
 
